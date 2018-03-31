@@ -11,4 +11,4 @@ COPY . /api-dummy
 RUN rails db:migrate
 RUN rails db:seed
 
-CMD rails s
+CMD puma
