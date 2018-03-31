@@ -8,6 +8,7 @@ COPY Gemfile.lock /api-dummy/Gemfile.lock
 RUN bundle install
 
 COPY . /api-dummy
-RUN rake db:migrate
+RUN rails db:migrate
+RUN rails db:seed
 
 CMD rails s
