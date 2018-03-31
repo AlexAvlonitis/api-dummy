@@ -14,7 +14,7 @@ Download
 * `puma`
 * Go to http://localhost:3000
 
-**Option 2 ( If you have dont want any ruby dependecies, requires docker )**
+**Option 2 ( If you don't want any ruby dependecies, requires docker )**
 
 * `docker build . -t api-dummy`
 * `docker run -it -p 3000:3000 --rm api-dummy`
@@ -24,8 +24,8 @@ Download
 
 There are 2 enpoints
 
-* http://localhost:3000api/animals
-* http://localhost:3000api/people
+* http://localhost:3000/api/animals
+* http://localhost:3000/api/people
 
 **List list of REST actions**
 
