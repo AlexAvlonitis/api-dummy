@@ -47,7 +47,7 @@ module Api
 
       # Only allow a trusted parameter "white list" through.
       def animal_params
-        params.fetch(:animal, {})
+        params.fetch(:animal, {:name})
       end
   end
 end
