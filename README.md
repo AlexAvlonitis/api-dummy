@@ -27,7 +27,7 @@ There are 2 enpoints
 * http://localhost:3000/api/animals
 * http://localhost:3000/api/people
 
-**List list of REST actions**
+**List of REST actions**
 
 |             | Action | Endpoint                   | Parameters                          |
 |-------------|--------|----------------------------|-------------------------------------|
