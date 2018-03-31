@@ -8,7 +8,7 @@ COPY Gemfile.lock /api-dummy/Gemfile.lock
 RUN bundle install
 
 COPY . /api-dummy
-RUN rails db:migrate
-RUN rails db:seed
+RUN rails db:drop
+RUN rails db:setup
 
 CMD puma
